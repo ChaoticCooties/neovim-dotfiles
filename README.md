@@ -1,5 +1,4 @@
 # Dotfiles
----
 ##### Personal nvim dotfiles currently migrating over from Vimscript to Lua. Treesitter/nvim-lsp/Telescope included.
 ---
 # Showcase
@@ -17,5 +16,6 @@
 # Inspirations
 ---
 #####
-[NvChad](https://github.com/siduck76/NvChad)
-[Lukas' Dotfiles](https://github.com/lukas-reineke/dotfiles/)
+- [NvChad](https://github.com/siduck76/NvChad)
+
+- [Lukas' Dotfiles](https://github.com/lukas-reineke/dotfiles/)

@@ -7,6 +7,7 @@ require "format"
 require "autopairs"
 require "mappings"
 require "telescope-nvim"
+require "statusline"
 
 -- Default Indentation
 vim.o.expandtab = true
