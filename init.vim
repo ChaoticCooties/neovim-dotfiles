@@ -8,6 +8,8 @@ Plug 'gruvbox-community/gruvbox'
 Plug 'neovim/nvim-lspconfig'
 Plug 'kabouzeid/nvim-lspinstall'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+Plug 'hrsh7th/nvim-compe'
+Plug 'L3MON4D3/LuaSnip'
 
 Plug 'mhartington/formatter.nvim'
 Plug 'windwp/nvim-autopairs'
@@ -27,17 +29,9 @@ Plug 'lervag/vimtex'
 Plug 'sirver/ultisnips'
 Plug 'KeitaNakamura/tex-conceal.vim'
 
-" C/C++ Plugins
-Plug 'jackguo380/vim-lsp-cxx-highlight'
-
-" HTML/CSS Plugins
-Plug 'mattn/emmet-vim'
-
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
-"source ~/.config/nvim/vimscript/term.vim
-"source ~/.config/nvim/vimscript/defaults.vim
 for f in glob('$HOME/.config/nvim/vimscript/*.vim', 0, 1)
   execute 'source' f
 endfor

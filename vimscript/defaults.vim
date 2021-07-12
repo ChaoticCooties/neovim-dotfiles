@@ -3,8 +3,11 @@ let g:python_host_prog = '/Users/cooties/.pyenv/versions/neovim2/bin/python'
 let g:python3_host_prog = '/Users/cooties/.pyenv/versions/neovim3/bin/python'
 
 " UltiSnips
-let g:UltiSnipsSnippetsDir = $HOME.'/.vim/UltiSnips/'
-let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips']
+let g:UltiSnipsSnippetsDir = $HOME.'/.config/nvim/UltiSnips/'
+let g:UltiSnipsSnippetDirectories=[$HOME.'/.config/nvim/UltiSnips']
+let g:UltiSnipsExpandTrigger = ''
+let g:UltiSnipsJumpForwardTrigger = ''
+let g:UltiSnipsJumpBackwardTrigger = ''
 
 " Theme stuff
 let mapleader=" "

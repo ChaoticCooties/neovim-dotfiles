@@ -19,3 +19,5 @@
 - [NvChad](https://github.com/siduck76/NvChad)
 
 - [Lukas' Dotfiles](https://github.com/lukas-reineke/dotfiles/)
+
+- [TokyoNight](https://github.com/folke/tokyonight.nvim)
