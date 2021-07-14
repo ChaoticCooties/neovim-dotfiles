@@ -125,3 +125,6 @@ map("s", "<Tab>", "v:lua.tab_complete()", {expr = true})
 map("i", "<S-Tab>", "v:lua.s_tab_complete()", {expr = true})
 map("s", "<S-Tab>", "v:lua.s_tab_complete()", {expr = true})
 map("i", "<CR>", "v:lua.completions()", {expr = true})
+
+-- Float Term
+map("n", "<Leader>t", [[:FloatermToggle --name=floatterm --wintype=float --autoclose=2 <CR>]], {noremap = true})
