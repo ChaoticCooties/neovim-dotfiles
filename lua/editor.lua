@@ -9,11 +9,12 @@ local function set_globals()
   g.python_host_prog = "/Users/cooties/.pyenv/versions/neovim2/bin/python"
 
   -- UltiSnips
-  --g.UltiSnipsSnippetDirectories = [vim.env.HOME .. "/.config/nvim/UltiSnips"]
+  --g.UltiSnipsSnippetDirectories = [[vim.env.HOME .. "/.config/nvim/UltiSnips"]]
   g.UltiSnipsSnippetsDir = vim.env.HOME .. "/.config/nvim/UltiSnips/"
   g.UltiSnipsExpandTrigger = "<f5>"
 
   g.mapleader = " "
+  g.tex_flavor = "latex"
 end
 
 local function set_opts()

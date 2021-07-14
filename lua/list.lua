@@ -78,14 +78,12 @@ return packer.startup(
 
     use {
       "nvim-telescope/telescope.nvim",
+      config = require "plugins.telescope".config,
       requires = {
         {"nvim-lua/popup.nvim"},
         {"nvim-lua/plenary.nvim"}
       },
-      cmd = "Telescope",
-      config = function()
-        require("plugins.telescope").config()
-      end
+      cmd = "Telescope"
     }
 
     use {"nvim-telescope/telescope-fzf-native.nvim", run = "make", cmd = "Telescope"}
@@ -118,15 +116,12 @@ return packer.startup(
     }
 
     use "kyazdani42/nvim-web-devicons"
-
     use "tpope/vim-surround"
-
     use "voldikss/vim-floaterm"
 
-    -- Latex
-    use "lervag/vimtex"
-
     use "sirver/ultisnips"
+
+    use "lervag/vimtex"
 
     use "KeitaNakamura/tex-conceal.vim"
   end

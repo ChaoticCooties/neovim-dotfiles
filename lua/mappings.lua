@@ -61,6 +61,7 @@ local opt = {}
 
 -- New split window
 map("n", "<C-w>v", "<esc> :botright vnew <CR>", opt)
+map("n", "<C-w>V", "<esc> :vnew <CR>", opt)
 
 -- Autoformat
 map("n", "<Leader>f", ":Format <CR>", opt)
