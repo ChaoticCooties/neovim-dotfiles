@@ -1,7 +1,7 @@
 # Dotfiles
 ---
 
-| Personal nvim dotfiles currently migrating over from Vimscript to Lua. Treesitter/nvim-lsp/Telescope included.
+| Nvim Lua dotfiles. Treesitter/LSP/Telescope/Compe included.
 
 ---
 # Showcase
@@ -10,10 +10,6 @@
 ![workflow](https://user-images.githubusercontent.com/26598965/125358719-dea93800-e39b-11eb-9153-2a20911c3d8d.png)
 
 ---
-# TODO
----
-
-- Fully migrate to lua for neovim scripting.
 
 # Inspirations
 ---
